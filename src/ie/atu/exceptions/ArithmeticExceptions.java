@@ -9,6 +9,8 @@ public class ArithmeticExceptions {
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Caught ArithmeticException: division by zero.");
+        } finally {
+            System.out.println("This will always execute, regardless of exceptions.");
         }
     }
 }
