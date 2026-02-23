@@ -1,7 +1,7 @@
 package ie.atu.exceptions;
 import java.util.Scanner;
 
-public class calculateGrade {
+public class calculateGrades {
     public static void main(String[] args) {
         System.out.print("Enter your score: ");
         try (Scanner scanner = new Scanner(System.in)) {
