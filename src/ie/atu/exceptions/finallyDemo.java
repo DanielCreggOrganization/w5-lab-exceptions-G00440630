@@ -5,6 +5,7 @@ public class finallyDemo {
         try { int number = 10;
             int number2 = 0;
             int result = number/number2;
+            System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Caught ArithmeticException: division by zero.");
         } finally {
